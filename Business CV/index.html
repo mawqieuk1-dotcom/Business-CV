@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page_title">نورة المطيري | Business Administration</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d1b2a'/%3E%3Ctext x='50' y='65' text-anchor='middle' fill='%23f59e0b' font-size='40' font-weight='bold'%3EB%3C/text%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css" id="dark-mode-css" disabled>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-chart-line"></i>
+                <span data-i18n="brand_name">نورة المطيري</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="active" data-i18n="nav_home">الرئيسية</a></li>
+                    <li><a href="#education" data-i18n="nav_edu">التعليم</a></li>
+                    <li><a href="#experience" data-i18n="nav_exp">الخبرات</a></li>
+                    <li><a href="#certificates" data-i18n="nav_cert">الشهادات</a></li>
+                    <li><a href="#skills" data-i18n="nav_skills">المهارات</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">تواصل</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="langToggle" class="icon-btn"><i class="fas fa-globe"></i> <span>English</span></button>
+                <button id="darkModeToggle" class="icon-btn"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO with Flip Card -->
+    <section class="hero" id="home">
+        <canvas id="particleCanvas"></canvas>
+        <div class="container hero-content">
+            <div class="hero-text" data-aos="fade-left">
+                <span class="hero-badge" data-i18n="hero_badge">طالبة إدارة أعمال</span>
+                <h1><span data-i18n="hero_hello">مرحباً، أنا</span> <span class="accent" id="heroName" data-i18n="hero_name">نورة المطيري</span></h1>
+                <p data-i18n="hero_desc">طالبة طموحة في جامعة الكويت، متخصصة في الإدارة المالية والتسويق. أسعى لبناء مستقبل مهني في عالم الأعمال.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero_btn1">تواصل معي</a>
+                    <a href="#" class="btn btn-outline" data-i18n="hero_btn2">تحميل السيرة الذاتية</a>
+                </div>
+                <div class="hero-stats">
+                    <div><span class="counter" data-target="4">0</span> <span data-i18n="stat_gpa">GPA</span></div>
+                    <div><span class="counter" data-target="3">0</span> <span data-i18n="stat_internships">تدريب</span></div>
+                    <div><span class="counter" data-target="6">0</span> <span data-i18n="stat_certs">شهادة</span></div>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-right">
+                <!-- Flip Card -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="hero-avatar">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <p data-i18n="flip_hint_mobile" id="flipHint">انقر للخلف</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3 data-i18n="brand_name">نورة المطيري</h3>
+                            <p dir="ltr"><i class="fas fa-phone"></i> +965 5555 1234</p>
+                            <p><i class="fas fa-envelope"></i> noura@email.com</p>
+                            <p><i class="fas fa-map-marker-alt"></i> الكويت</p>
+                            <div class="social-links-small">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION with Glass Cards -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 data-i18n="edu_title">التعليم</h2>
+                <p data-i18n="edu_sub">مسيرتي الأكاديمية</p>
+            </div>
+            <div class="glass-grid">
+                <div class="glass-card" data-aos="fade-up">
+                    <div class="glass-icon"><i class="fas fa-university"></i></div>
+                    <span class="glass-date" data-i18n="edu1_date">2022 - الآن</span>
+                    <h3 data-i18n="edu1_title">بكالوريوس إدارة أعمال</h3>
+                    <p data-i18n="edu1_uni">جامعة الكويت - كلية العلوم الإدارية</p>
+                    <p data-i18n="edu1_desc">تخصص الإدارة المالية والتسويق. المعدل التراكمي: 3.7/4.0</p>
+                </div>
+                <div class="glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="glass-icon"><i class="fas fa-school"></i></div>
+                    <span class="glass-date" data-i18n="edu2_date">2018 - 2022</span>
+                    <h3 data-i18n="edu2_title">شهادة الثانوية العامة</h3>
+                    <p data-i18n="edu2_uni">ثانوية حولي - القسم العلمي</p>
+                    <p data-i18n="edu2_desc">نسبة 98% - المرتبة الأولى على المدرسة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE with Animated Timeline -->
+    <section class="section bg-light" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 data-i18n="exp_title">الخبرات العملية</h2>
+                <p data-i18n="exp_sub">التدريب الداخلي والعمل التطوعي</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot pulse"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date" data-i18n="exp1_date">2025 - الآن</span>
+                        <h4 data-i18n="exp1_title">متدرب إدارة مالية</h4>
+                        <p data-i18n="exp1_company">شركة البترول الوطنية الكويتية</p>
+                        <p data-i18n="exp1_desc">تحليل البيانات المالية، إعداد التقارير، المشاركة في إعداد الموازنات.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot pulse"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date" data-i18n="exp2_date">2024</span>
+                        <h4 data-i18n="exp2_title">متدرب تسويق</h4>
+                        <p data-i18n="exp2_company">وكالة الإبداع للإعلان</p>
+                        <p data-i18n="exp2_desc">إدارة حملات التواصل الاجتماعي، تحليل السوق، كتابة المحتوى التسويقي.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot pulse"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date" data-i18n="exp3_date">2023</span>
+                        <h4 data-i18n="exp3_title">متطوع تنظيم فعاليات</h4>
+                        <p data-i18n="exp3_company">الاتحاد الطلابي - جامعة الكويت</p>
+                        <p data-i18n="exp3_desc">تنظيم المؤتمرات الطلابية، إدارة الفرق التطوعية، التنسيق مع الجهات الراعية.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES with Progress Bars -->
+    <section class="section" id="certificates">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 data-i18n="cert_title">الشهادات المهنية</h2>
+                <p data-i18n="cert_sub">الشهادات التي حصلت عليها</p>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card" data-aos="zoom-in">
+                    <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    <h4 data-i18n="cert1_title">شهادة CFA مستوى 1</h4>
+                    <span class="cert-status complete" data-i18n="cert_complete">مكتمل</span>
+                    <div class="cert-bar"><div class="cert-fill" style="width:100%"></div></div>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    <h4 data-i18n="cert2_title">شهادة PMP</h4>
+                    <span class="cert-status complete" data-i18n="cert_complete">مكتمل</span>
+                    <div class="cert-bar"><div class="cert-fill" style="width:100%"></div></div>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="cert-badge"><i class="fas fa-certificate"></i></div>
+                    <h4 data-i18n="cert3_title">شهادة CMA</h4>
+                    <span class="cert-status progress" data-i18n="cert_progress">قيد الدراسة</span>
+                    <div class="cert-bar"><div class="cert-fill" style="width:60%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- SKILLS with Donut Charts -->
+<section class="section bg-light" id="skills">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 data-i18n="skills_title">المهارات</h2>
+            <p data-i18n="skills_sub">المهارات التي أتقنها</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-donut" data-aos="zoom-in">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg-circle" cx="50" cy="50" r="45"/>
+                    <circle class="fg-circle" cx="50" cy="50" r="45" data-percent="90"/>
+                </svg>
+                <div class="donut-text"><span class="percent">90%</span><span class="label" data-i18n="skill1">تحليل مالي</span></div>
+            </div>
+            <div class="skill-donut" data-aos="zoom-in" data-aos-delay="100">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg-circle" cx="50" cy="50" r="45"/>
+                    <circle class="fg-circle" cx="50" cy="50" r="45" data-percent="85"/>
+                </svg>
+                <div class="donut-text"><span class="percent">85%</span><span class="label" data-i18n="skill2">تسويق رقمي</span></div>
+            </div>
+            <div class="skill-donut" data-aos="zoom-in" data-aos-delay="200">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg-circle" cx="50" cy="50" r="45"/>
+                    <circle class="fg-circle" cx="50" cy="50" r="45" data-percent="88"/>
+                </svg>
+                <div class="donut-text"><span class="percent">88%</span><span class="label" data-i18n="skill3">Excel متقدم</span></div>
+            </div>
+            <div class="skill-donut" data-aos="zoom-in" data-aos-delay="300">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg-circle" cx="50" cy="50" r="45"/>
+                    <circle class="fg-circle" cx="50" cy="50" r="45" data-percent="75"/>
+                </svg>
+                <div class="donut-text"><span class="percent">75%</span><span class="label" data-i18n="skill4">Power BI</span></div>
+            </div>
+            <div class="skill-donut" data-aos="zoom-in" data-aos-delay="400">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg-circle" cx="50" cy="50" r="45"/>
+                    <circle class="fg-circle" cx="50" cy="50" r="45" data-percent="80"/>
+                </svg>
+                <div class="donut-text"><span class="percent">80%</span><span class="label" data-i18n="skill5">إدارة مشاريع</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- CONTACT -->
+    <section class="section booking" id="contact">
+        <div class="container booking-container">
+            <div class="section-header" data-aos="fade-down">
+                <h2 data-i18n="contact_title">تواصل معي</h2>
+                <p data-i18n="contact_sub">يسعدني سماع أفكارك واستفساراتك</p>
+            </div>
+            <form id="bookingForm" class="booking-form glass-card" data-aos="zoom-in">
+                <div class="form-row">
+                    <div class="form-group required-field"><label data-i18n="form_name">الاسم</label><input type="text" id="name" required></div>
+                    <div class="form-group required-field"><label data-i18n="form_email">البريد الإلكتروني</label><input type="email" id="email" required></div>
+                </div>
+                <div class="form-group full"><label data-i18n="form_msg">الرسالة</label><textarea id="message" rows="3"></textarea></div>
+                <button type="button" class="btn btn-primary btn-block" data-i18n="form_submit" onclick="submitContact()">إرسال</button>
+                <div id="formFeedback" class="form-feedback"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p data-i18n="copyright">© 2025 نورة المطيري. قالب من <strong>موقعك</strong> – Mawqeak</p>
+        </div>
+    </footer>
+
+    <!-- BOTTOM NAV -->
+    <nav class="bottom-nav" id="bottomNav">
+        <a href="#home" class="bottom-nav-item active"><i class="fas fa-home"></i><span data-i18n="nav_home">الرئيسية</span></a>
+        <a href="#experience" class="bottom-nav-item"><i class="fas fa-briefcase"></i><span data-i18n="nav_exp">خبرات</span></a>
+        <a href="#certificates" class="bottom-nav-item"><i class="fas fa-certificate"></i><span data-i18n="nav_cert">شهادات</span></a>
+        <a href="#contact" class="bottom-nav-item"><i class="fas fa-envelope"></i><span data-i18n="nav_contact">تواصل</span></a>
+    </nav>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
