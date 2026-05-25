@@ -23,7 +23,7 @@ const translations = {
         skill1: 'تحليل مالي', skill2: 'تسويق رقمي', skill3: 'Excel متقدم', skill4: 'Power BI', skill5: 'إدارة مشاريع',
         contact_title: 'تواصل معي', contact_sub: 'يسعدني سماع أفكارك',
         form_name: 'الاسم', form_email: 'البريد الإلكتروني', form_msg: 'الرسالة', form_submit: 'إرسال',
-        copyright: '© 2025 نورة المطيري. قالب من <strong>موقعك</strong> – Mawqeak'
+        copyright: '© 2026 نورة المطيري. قالب من <strong>موقعك</strong> – Mawqeak'
     },
     en: {
         page_title: 'Noura Al-Mutairi | Business Administration',
@@ -49,7 +49,7 @@ const translations = {
         skill1: 'Financial Analysis', skill2: 'Digital Marketing', skill3: 'Advanced Excel', skill4: 'Power BI', skill5: 'Project Management',
         contact_title: 'Contact Me', contact_sub: 'I\'d love to hear from you',
         form_name: 'Name', form_email: 'Email', form_msg: 'Message', form_submit: 'Send',
-        copyright: '© 2025 Noura Al-Mutairi. Template by <strong>Mawqeak</strong>'
+        copyright: '© 2026 Noura Al-Mutairi. Template by <strong>Mawqeak</strong>'
     }
 };
 
